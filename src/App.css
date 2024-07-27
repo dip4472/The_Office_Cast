@@ -62,12 +62,6 @@ input[type='text'] {
   outline: none;
 }
 
-/* .cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-} */
-
 .card {
   cursor: pointer;
   background-color: transparent;
