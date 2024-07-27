@@ -62,11 +62,11 @@ input[type='text'] {
   outline: none;
 }
 
-.cards {
+/* .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-}
+} */
 
 .card {
   cursor: pointer;
@@ -85,7 +85,7 @@ input[type='text'] {
 .card img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .card-inner {
